@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #111;
+  color: #fff;
+}
+nav {
+  margin-top: 10px;
+}
+.navbar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 200px;
+}
+.logo {
+  margin-left: 40px;
+  list-style-type: none;
+  font-size: x-large;
+}
+.secpart {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 5px;
+}
+.lastsec {
+  display: flex;
+  flex-shrink: 3;
+  background-color: yellow;
+  padding: 8px;
+  border: none;
+  margin: 3px;
+}
+
+.hero {
+  margin: 3.5% 6.5%;
+  max-width: 50%;
+  font-size: x-large;
+  word-spacing: 10px;
+}
+.hero_text {
+  font-size: smaller;
+}
+
+.companies {
+  display: flex;
+  gap: 10px;
+  text-align: center;
+  /* justify-content: center; */
+  margin-left: 28pt;
+  flex-wrap: wrap;
+}
+.projects {
+  display: flex;
+  gap: 20px;
+  /* flex-wrap: wrap; */
+  margin: 7% 7%;
+}
+img.companies {
+  width: 100px;
+}
+img.project_img {
+  width: 400px;
+  /* margin: 7% 7%; */
+}
+.spense_text {
+  width: 80%;
+}
+
+/* third section */
+.overview {
+  background-color: #484e54;
+  display: flex;
+}
+.overview .sideone,
+.overview .sidetwo {
+  width: 40%;
+  font-size: small;
+  margin: 5% 5%;
+}
+.overview .sideone p,
+.overview .sidetwo p,
+.overview .sideone h3 {
+  margin: 10px;
+}
+/* contact section */
+
+.contact {
+  width: 30%;
+  margin: 5% 5%;
+}
+.contact p {
+  font-size: small;
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #484e54;
+  display: flex;
+  gap: 75%;
+  max-width: 100%;
+  /* justify-content: space-around; */
+  padding: 0 20px;
+}
+.footer_logo {
+  padding-left: 60px;
+}
